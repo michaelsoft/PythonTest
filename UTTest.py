@@ -9,6 +9,7 @@ class TestDict(unittest.TestCase):
     def tearDown(self):
         print('tearDown...')
         
+
     def test_Init(self):
         d = Dict(a=1, b='abc')
         self.assertEqual(d.a, 1)
