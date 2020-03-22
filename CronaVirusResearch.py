@@ -18,6 +18,7 @@ url = "https://view.inews.qq.com/g2/getOnsInfo?name=disease_h5"
 response = requests.get(url).json()
 
 data = json.loads(response['data'])
+
 #print(data.keys())
 
 areaTree = data["areaTree"]
